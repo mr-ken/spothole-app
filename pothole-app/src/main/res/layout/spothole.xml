@@ -1,0 +1,77 @@
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Login">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_bg_color">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Spotted a pothole?"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="41dp"
+            android:textColor="#FFFFFF"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="what size is it..."
+            android:id="@+id/textView2"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:textColor="#9e9e9e" />
+
+        <Button
+            android:id="@+id/small_button"
+            android:text=""
+            android:onClick="onClickSmall"
+            android:background="@drawable/small_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignLeft="@+id/medium_button"
+            android:layout_alignStart="@+id/medium_button"
+            android:layout_marginTop="35dp"
+            android:height="60dp"
+            android:width="45dp"/>
+
+        <Button
+            android:id="@+id/medium_button"
+            android:text=""
+            android:onClick="onClickMedium"
+            android:background="@drawable/medium_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="60dp"
+            android:width="45dp"
+            android:layout_below="@+id/small_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp" />
+
+        <Button
+            android:id="@+id/large_button"
+            android:text=""
+            android:onClick="onClickLarge"
+            android:background="@drawable/large_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:height="60dp"
+            android:width="45dp"
+            android:layout_below="@+id/medium_button"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Spothole</string>
+    <string name="error_server">Make sure you have a connection to the internet</string>
+    <string name="ok">OK</string>
+    <string name="thank_you">Thank you for reporting a pothole!</string>
+
+</resources>
